@@ -21,13 +21,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ParralaxSG_Mat
-  m_Shader: {fileID: -6465566751694194690, guid: dab693a01e3669a488ca2461c8dffc8a,
+  m_Shader: {fileID: -6465566751694194690, guid: 45086f73b72b3c44aa3102a5cfe59e8f,
     type: 3}
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 2100000, guid: 81bacd49c5577864995682768f05c2cf, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -36,30 +36,11 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _ParallaxMapping_672569948a4e4d0da5d3c316cc9d1e4d_Heightmap_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 046e8c3035707834da517db833a8c498, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_c1e51cac47f345a3814354dba5ff8f38_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 1a991ec5bdb01cb498ccdac1ccf29df4, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _QueueControl: 0
-    - _QueueOffset: 0
+    - _Edge1: 0.33
+    - _Edge2: 0.6
+    - _NoiseScale: 15.5
     m_Colors: []
   m_BuildTextureStacks: []
