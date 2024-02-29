@@ -116,7 +116,7 @@ Material:
     - _Noise: 5.43
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _PixelRes: 55.7
+    - _PixelRes: 31.58
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
